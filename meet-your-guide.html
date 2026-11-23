@@ -6,7 +6,7 @@
     <title>Meet Your Guide</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="guide-page">        
+<body class="guide-page">        
     <header>
         <nav class="nav-bar">
             <ul class="nav-links">
@@ -20,8 +20,8 @@
             </ul>
         </nav>
     </header>
-    <main class="guide-container">
-    <section class="polaroid">
+<main class="guide-container">
+    <div class="polaroid">
         <div class="polaroid-wrap">
             <div class="guide-photo">
                 <img src="images/guide-photo.jpg" alt="Meet the Tour Guide" class="user-photo" aria-hidden="true">
@@ -29,27 +29,28 @@
             <img src="images/polaroid.jpg" alt="makeshift polaroid" class="photo-frame">
             <p class="polaroid-caption">Tour Guide: Amanda</p>
         </div>
-    </section>
-</main>
+    </div>
     <section class="departure-board">
         <header class="board-heading">
             <div class="title">
-                <h1>DEPATURES | THE BACKSTORY</h1>
+                <h1>DEPATURES | ORIGINS</h1>
             </div>
-            <span class="clock">GATE 17 | DELAYED</span>
+            <span class="clock">GATE 2017 | DELAYED</span>
         </header>
         <div class="board-column" aria-hidden="true">
             <span>STOP</span>
             <span>DESTINATION</span>
             <span>STATUS</span>
         </div>
-
         <ol class="flight-list">
             <li class="flight-row">
                 <span class="flight-num">CA1025</span>
                 <div class="flight-info">
                     <strong class="destination">PRE-BOARDING</strong>
-                    <p class="details"></p>
+                    <p class="details"> I didn't grow up a well-rounded traveler, but a last-minute border crossing in 2017 immediately sparked a love for global traveling. Get a peak inside my camera roll here:
+                        <a href="destinations.html" class="destination-link">Film Roll</a>
+                    </p>
+                    </a>
                 </div>
                 <span class="status-boarding">BOARDING</span>
             </li>
@@ -57,7 +58,9 @@
                 <span class="flight-num">EN0126</span>
                 <div class="flight-info">
                     <strong class="destination">DOORS CLOSING</strong>
-                    <p class="details"></p>
+                    <p class="details">With each destination I have left a piece of myself there, and in return brought a lesson home. Learn about the highlights and takeaways here:
+                        <a href="field-notes.html" class="notes-link">Field Notes</a>
+                    </p>
                 </div>
                 <span class="status-final">FINAL BOARDING CALL</span>
             </li>
@@ -65,13 +68,14 @@
                 <span class="flight-num">BA0419</span>
                 <div class="flight-info">
                     <strong class="destination">GATE CLOSED</strong>
-                    <p class="details">
-                        <a href="travel-gear.html">Travel Gear</a>
-                    </p> #add external link later if desired
+                    <p class="details">Since becoming an avid traveler lessons aren't the only thing I have gained insight on. Browse my personal recommendations to make traveling easier here:
+                        <a href="travel-gear.html" class="gear-link">Travel Gear</a>
+                    </p>
                 </div>
                 <span class="status-departed">DEPARTED</span>
             </li>
         </ol>
     </section>
+</main>
 </body>
 </html>
